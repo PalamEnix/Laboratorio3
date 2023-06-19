@@ -1,0 +1,20 @@
+button:
+  label: 'Button'
+  description: 'button component'
+  fields:
+    text:
+      type: string
+      label: Button text
+      description: text to be placed on the button
+      preview: 'Read More'
+    url:
+      type: url
+      label: URL
+      description: url user will be redirected to
+      preview: 'https://google.com'
+  libraries:
+    -
+      button:
+        css:
+          component:
+            css/style.css: {}
