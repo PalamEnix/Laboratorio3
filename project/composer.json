@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^10.0",
         "drupal/devel": "^5.1",
         "drupal/pathauto": "^1.11",
+        "drupal/ui_patterns": "^1.5",
         "drush/drush": "^11.5"
     },
     "require-dev": {
@@ -31,7 +32,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
@@ -48,6 +49,9 @@
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
+            },
+            "file-mapping":{
+                "[web-root]/sites/development.services.yml": false
             }
         },
         "installer-paths": {
