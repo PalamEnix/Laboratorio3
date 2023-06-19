@@ -1,0 +1,15 @@
+cardtext:
+  label: 'Parrafo'
+  description: 'espacio de texto'
+  fields:
+    text:
+      type: string
+      label: Parrafo
+      description: text to be placed 
+      preview: 'Read More'
+  libraries:
+    -
+      cardtext:
+        css:
+          component:
+            css/style.css: {}
