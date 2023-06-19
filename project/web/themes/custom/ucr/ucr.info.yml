@@ -1,0 +1,22 @@
+name: ucr
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - ucr/base
+  - ucr/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - ucr/user
+  core/drupal.dropbutton:
+    - ucr/dropbutton
+  core/drupal.dialog:
+    - ucr/dialog
+  file/drupal.file:
+    - ucr/file
+  core/drupal.progress:
+    - ucr/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.3'
