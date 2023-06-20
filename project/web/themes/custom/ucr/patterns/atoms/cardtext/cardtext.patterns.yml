@@ -1,10 +1,10 @@
 cardtext:
-  label: 'Parrafo'
-  description: 'espacio de texto'
+  label: 'Paragraph'
+  description: 'text space'
   fields:
     text:
       type: string
-      label: Parrafo
+      label: Paragraph
       description: text to be placed 
       preview: 'Read More'
   libraries:

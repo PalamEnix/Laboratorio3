@@ -6,3 +6,31 @@
 .node--unpublished {
   background-color: #fff4f4;
 }
+
+.display-text {
+  display: flex;
+}
+
+.column-text{
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.column-btn {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.display {
+  display: flex;
+}
+
+.colum-1{
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.colum-2 {
+  flex: 0 0 auto;
+  width: 50%;
+}

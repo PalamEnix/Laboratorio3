@@ -15,4 +15,23 @@
     
 }
 
+.btn--default{
+    background-color:#2f4f4f;
+    padding: 1rem 2rem;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.btn--link {
+    background-color: transparent;
+    padding: 1rem 2rem;
+    color: rgb(30, 30, 30);
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
 
