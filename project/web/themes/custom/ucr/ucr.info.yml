@@ -7,6 +7,7 @@ libraries:
   - ucr/base
   - ucr/messages
   - core/normalize
+  - ucr/font-awesome
 libraries-extend:
   user/drupal.user:
     - ucr/user
@@ -19,7 +20,7 @@ libraries-extend:
   core/drupal.progress:
     - ucr/progress
 core_version_requirement: ^10
-generator: 'starterkit_theme:10.0.3'
+generator: 'starterkit_theme:10.0.9'
 regions:
   header: Header
   primary_menu: 'Primary menu'

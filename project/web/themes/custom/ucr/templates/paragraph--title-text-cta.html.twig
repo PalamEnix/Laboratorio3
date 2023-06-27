@@ -49,14 +49,11 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-    <div class="display">
-      <div class="colum-1">
-        {{ content.field_columna_izquierda}}
-      </div>
-      <div class="colum-2">
-        {{ content.field_columna_derecha}}
-      </div>
-    </div>
+      {{ pattern('title_text_cta', {
+        title: content.field_title,
+        text: content.field_text,
+        cta: content.field_cta
+      }, paragraph.field_color.0.value) }}
     {% endblock %}
   </div>
 {% endblock paragraph %}

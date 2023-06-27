@@ -49,11 +49,10 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {{ pattern('button', {
-        text: paragraph.field_link.0.value.title,
-        url: paragraph.field_link.0.value.uri,
-      }, paragraph.field_button_style.0.value) }}
+      {{ pattern('two_column', {
+        left: content.field_left_content,
+        right: content.field_right_content
+      }) }}
     {% endblock %}
-
   </div>
 {% endblock paragraph %}
