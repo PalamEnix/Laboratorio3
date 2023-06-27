@@ -1,0 +1,19 @@
+uuid: 4812078e-1eec-4871-9c6c-18b41fcc7ccd
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.title_text_cta
+id: paragraph.title_text_cta.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: title_text_cta
+label: Text
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,10 @@
+uuid: ff0e5ce7-f74c-4e23-b7d9-24af7a6b2074
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sapEi2YDGoI9yQIT_WgIV2vUdQ6DScH0V3fAyTadAL0
+id: admin
+label: Administración
+description: 'Enlaces de tareas administrativas'
+locked: true

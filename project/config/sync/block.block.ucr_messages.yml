@@ -1,0 +1,22 @@
+uuid: d0db5813-ed61-4de4-a5ce-af4ae6a30b58
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ucr
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: ucr_messages
+theme: ucr
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  label_display: '0'
+  provider: system
+visibility: {  }

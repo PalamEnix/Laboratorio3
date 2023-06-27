@@ -1,0 +1,30 @@
+uuid: 3ca244fe-ba0a-4a72-a455-f407ed157b68
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_color
+field_name: field_color
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: default
+      label: 'Default display (transparent)'
+    -
+      value: orange
+      label: 'Orange background'
+    -
+      value: blue
+      label: 'Blue background'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
