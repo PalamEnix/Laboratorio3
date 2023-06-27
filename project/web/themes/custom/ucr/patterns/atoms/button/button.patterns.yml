@@ -30,4 +30,4 @@ button:
       button:
         css:
           component:
-            css/styles.css: {}
+            css/style.css: {}

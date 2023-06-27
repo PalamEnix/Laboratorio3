@@ -1,0 +1,21 @@
+uuid: 8c402cc2-f7a8-45b6-8dc7-d613eb3d44fd
+langcode: es
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_proportion
+field_name: field_proportion
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

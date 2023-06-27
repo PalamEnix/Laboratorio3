@@ -17,4 +17,4 @@ two_column:
       two_column:
         css:
           component:
-            css/styles.css: {}
+            css/style.css: {}

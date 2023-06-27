@@ -1,0 +1,23 @@
+uuid: bfc5d6f4-ed38-411f-b401-cdc239133bf0
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - ucr
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: ucr_search_form_narrow
+theme: ucr
+region: primary_menu
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulario de búsqueda (estrecho)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: cd8c8f69-28a6-4c0a-978a-803a38754a61
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_proportion
+    - paragraphs.paragraphs_type.layout_2_columns
+  module:
+    - options
+id: paragraph.layout_2_columns.field_proportion
+field_name: field_proportion
+entity_type: paragraph
+bundle: layout_2_columns
+label: Proportion
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
